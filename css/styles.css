@@ -1,0 +1,195 @@
+/* responsive */
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+@media screen and (min-width: 1024px) {}
+
+/* Container */
+
+.contenedor-partesuperior {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid burlywood;
+}
+
+.contenedor-texto {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenedor-footer ol {
+    list-style-type: none;
+}
+
+.contenedor-footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contenedor-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Grids */
+
+.grid-item {
+    border: 5px;
+    margin: 30px;
+}
+
+/* Header de la pagina */
+
+.navegacion {
+    font-family: 'Mukta', sans-serif;
+    background-color: #c98025;
+    margin: auto;
+    height: 50px solid;
+    border-bottom: 5px solid burlywood;
+}
+
+.navegacion a {
+    margin-left: 10%;
+    text-decoration: none;
+    color: white;
+}
+
+/* Todos los H */
+
+h1 {
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    margin-right: 40%;
+    color: white;
+}
+
+h3 {
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    margin-right: 40%;
+    color: white;
+}
+
+h4 {
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    color: white;
+}
+
+/* Index */
+
+.parrafo {
+    font-size: large;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    text-align: left;
+    color: white;
+    margin-right: 10%;
+}
+
+/* Color de los fondos de las paginas. */
+
+header {
+    background-color: white;
+    margin: auto;
+}
+
+body {
+    background-color: #752724;
+    margin: auto;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Mukta', sans-serif;
+    margin: auto;
+}
+
+/* Imagenes */
+
+.perrobienvenidos {
+    margin-right: 150px;
+    border: white solid 5px;
+    border-radius: 5%;
+
+}
+
+.img-sobrenosotros {
+    margin-right: 100px;
+    border: white solid 5px;
+    border-radius: 5%;
+}
+
+.img-proyectos {
+    margin-right: 100px;
+    border: white solid 5px;
+    border-radius: 5%;
+}
+
+.img-nuestrashistorias {
+    margin-right: 50px;
+    border: white solid 5px;
+    border-radius: 5%;
+}
+
+/* Transiciones */
+
+.perrobienvenidos {
+    width: 500px;
+    height: auto;
+    transition: width 0.3s ease;
+}
+.perrobienvenidos:hover {
+    width: 600px;
+}
+
+.img-sobrenosotros {
+    width: 350px;
+    height: auto;
+    transition: width 0.3s ease;
+}
+
+.img-sobrenosotros:hover {
+    width: 450px;
+}
+
+.img-proyectos {
+    width: 350px;
+    height: auto;
+    transition: width 0.3s ease;
+}
+
+.img-proyectos:hover {
+    width: 450px;
+}
+
+.img-nuestrashistorias {
+    width: 200px;
+    height: auto;
+    transition: width 0.3s ease;
+}
+
+.img-nuestrashistorias:hover {
+    width: 250px;
+}

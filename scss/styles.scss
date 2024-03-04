@@ -1,0 +1,118 @@
+/* responsive */
+@media screen and (max-width: 768px) {
+    .contenedor-texto {
+        display: flex;
+        flex-direction: initial;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+@media screen and (min-width: 1024px) {}
+
+/* Container */
+.contenedor-partesuperior, .contenedor-texto, .contenedor-footer {
+    display: flex;
+    flex-direction: column;
+
+    &.contenedor-texto {
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    &.contenedor-footer {
+        text-align: center;
+
+        ol {
+            list-style-type: none;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    &.contenedor-partesuperior {
+        border-bottom: 3px solid burlywood;
+    }
+}
+
+/* Grids */
+.grid-item {
+    border: 5px;
+    margin: 30px;
+}
+
+/* Header de la pagina */
+.navegacion {
+    font-family: 'Mukta', sans-serif;
+    background-color: #c98025;
+    margin: auto;
+    height: 50px solid;
+    border-bottom: 5px solid burlywood;
+
+    a {
+        margin-left: 10%;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/* Todos los H */
+h1, h2, h3, h4 {
+    font-style: normal;
+    font-family: 'Nunito', sans-serif;
+
+    &.h1 {
+        text-align: center;
+        color: black;
+    }
+
+    &.h2, &.h3 {
+        text-align: left;
+        margin-right: 40%;
+        color: white;
+    }
+
+    &.h4 {
+        text-align: left;
+        color: white;
+    }
+}
+
+/* Index */
+.parrafo {
+    font-size: large;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    text-align: left;
+    color: white;
+    margin-right: 10%;
+}
+
+/* Color de los fondos de las paginas. */
+header, body, footer {
+    background-color: white;
+    margin: auto;
+}
+
+body {
+    background-color: #752724;
+}
+
+/* Imagenes */
+.perrobienvenidos, .img-sobrenosotros, .img-proyectos, .img-nuestrashistorias {
+    margin-right: 150px;
+    border: white solid 5px;
+    border-radius: 5%;
+}
